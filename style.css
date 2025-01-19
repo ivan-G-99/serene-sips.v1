@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0e2c5;
+}
+
+header {
+  border: 2px solid black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  font-size: 3rem;
+}
+
+header p {
+  font-family: "Lato", serif;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  font-family: "Lato", serif;
+  background-color: #49281a;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #f0e2c5;
+}
+
+/* nav section  */
+nav {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #49281a;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f0e2c5;
+  padding: 0 20px;
+  margin-right: 10px;
+  font-family: "Lato", serif;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+
+/* our_menu section  */
+/*.menu {
+  border: 2px solid #000;
+} */
+.menu h2 {
+  font-family: lato, serif;
+  color: #49281a;
+  padding: 10px 0;
+}
+
+.menu .card {
+  font-family: lato, serif;
+  border: 2px solid #000;
+  width: 250px;
+  /*background-color: bisque; */
+  padding: 10px;
+  text-align: center;
+  /*margin: 50px auto; */
+  border-radius: 10px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.card-title {
+  margin: 10px 0;
+}
+.card-text {
+  line-height: 1.5;
+}
+.price {
+  font-weight: bold;
+  font-style: italic;
+}
+.btn-order {
+  width: 100%;
+  height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* about_us section  */
+#our_menu,
+#about_us,
+#contact {
+  /*border: 2px solid #000; */
+  padding: 20px;
+}
+
+#our_menu h1,
+#about_us h1,
+#contact h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  font-size: 2rem;
+}
+
+#about_us p,
+#contact p {
+  font-family: "Lato", serif;
+  text-align: justify;
+  padding: 10px 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+/* contact section  */
+#contact-form {
+  /*border: 1px solid #000; */
+  padding: 20px;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+form div {
+  /* background-color: cyan; */
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+.form-label {
+  width: 250px;
+  display: inline-block;
+  text-align: left;
+}
+.form-control {
+  width: 400px;
+  border: none;
+  outline: none;
+  background-color: #f0e2c5;
+  border-bottom: 2px solid #000;
+}
+
+/* footer section  */
+footer p {
+  font-family: "Lato", serif;
+  text-align: center;
+}

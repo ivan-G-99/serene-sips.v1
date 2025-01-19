@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
     <title>Serene-sip</title>
   </head>
   <body>
-    <div id="home">
-      <h1>Welcome to Serene-Sip</h1>
-      <p>Indulge in the finest coffee experience crafted just for you.</p>
-    </div>
-    <a href="#our_menu"> Explore Our Menu</a>
+    <header id="home">
+      <h1>Welcome to Serene Sips</h1>
+    
+      <p>Indulge in the finest coffee experience crafted just for you.</p>  
+      <a class="btn" href="#our_menu"> Explore Our Menu</a>
+    </header>
+    
 
     <nav>
       <a href="#home">Home</a>
@@ -99,7 +104,7 @@
               alt=""
               class="card-img-top"
             />
-            <h2 class="card-title">Americano</h2>
+            <h2 class="card-title">Classic Croissant</h2>
             <p class="card-text">
               - Strong and black coffee. <br />
               Perfect for the bold coffee enthusiast. <br />
@@ -114,7 +119,7 @@
               alt=""
               class="card-img-top"
             />
-            <h2 class="card-title">Americano</h2>
+            <h2 class="card-title">Classic Croissant</h2>
             <p class="card-text">
               - Strong and black coffee. <br />
               Perfect for the bold coffee enthusiast. <br />
@@ -129,7 +134,7 @@
               alt=""
               class="card-img-top"
             />
-            <h2 class="card-title">Americano</h2>
+            <h2 class="card-title">Classic Croissant</h2>
             <p class="card-text">
               - Strong and black coffee. <br />
               Perfect for the bold coffee enthusiast. <br />
@@ -144,7 +149,7 @@
               alt=""
               class="card-img-top"
             />
-            <h2 class="card-title">Americano</h2>
+            <h2 class="card-title">Classic Croissant</h2>
             <p class="card-text">
               - Strong and black coffee. <br />
               Perfect for the bold coffee enthusiast. <br />
@@ -182,33 +187,38 @@
         at Serene Sips Café.
       </p>
     </div>
-    <div id="Contact">
+    
+    <section id="contact">
       <h1>Contact Us</h1>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
         feedback, or special requests.
       </p>
+      </section>
+      
+      <div id="contact-form">
       <form action="">
         <fieldset>
           <div>
-            <label for="your_name">Your Name</label>
-            <input type="text" id="your_name" name="your_name" required />
+            <label for="your_name" class="form-label">Your Name</label>
+            <input type="text" id="your_name" class="form-control" name="your_name" required />
           </div>
           <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" name="email" required />
           </div>
           <div>
-            <label for="your_message">Your Message</label>
-            <textarea name="your_message" id="your_message"></textarea>
+            <label for="your_message" class="form-label">Your Message</label>
+            <textarea name="your_message" id="your_message" class="form-control"></textarea>
           </div>
-          <input type="submit" value="Send Message" />
+          <input type="submit" class="btn" value="Send Message" />
         </fieldset>
       </form>
     </div>
+  </div>
     <footer>
-      <p>copyright&copy;2024. All rights reserved</p>
-      <a href="#home">to top</a>
+      <p>copyright &copy; 2025. All rights reserved</p>
+      <a href="#home">to top &uarr;</a>
     </footer>
   </body>
 </html>
